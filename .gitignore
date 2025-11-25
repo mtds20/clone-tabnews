@@ -1,0 +1,58 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+dist/
+
+# Build output
+build/
+*.tsbuildinfo
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+*.log.*
+debug.log
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Codespaces / Devcontainers
+.devcontainer.json
+.devcontainer/
+tmp/
+.cache/
+
+# Local runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: ignore next.js cache
+.next/
+.vercel
+
+# Optional: OS trash and temp files
+Thumbs.db
